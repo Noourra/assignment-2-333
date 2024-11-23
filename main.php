@@ -10,3 +10,14 @@ if($data===null){
     die(" Error: unable to decode JSON response. ");
 }
 ?> 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> UOB students nationality data </title>
+        <link rel="stylesheet" href="https://unpkg.com/pico-css@latest/dist/pico.min.css">
+</head>
+<body> 
+    
