@@ -1,1 +1,32 @@
+</head>
+<body>
 
+    <h1>Students Enrolled in Bachelor Programs</h1>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Semester</th>
+                    <th>The Programs</th>
+                    <th>Nationality</th>
+                    <th>Colleges</th>
+                    <th>Number of Students</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($data['records'] as $record): ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($record['year']); ?></td>
+                        <td><?php echo htmlspecialchars($record['semester']); ?></td>
+                        <td><?php echo htmlspecialchars($record['the_programs']); ?></td>
+                        <td><?php echo htmlspecialchars($record['nationality']); ?></td>
+                        <td><?php echo htmlspecialchars($record['colleges']); ?></td>
+                        <td><?php echo htmlspecialchars($record['number_of_students']); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
