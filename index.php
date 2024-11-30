@@ -32,5 +32,6 @@
                 echo '<thead><tr><th>Nationality</th><th>College</th><th>Program</th><th>Count</th></tr></thead>';
                 echo '<tbody>';
 
-                // Iterate through records and display them
-               
+                
+            
+
